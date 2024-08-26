@@ -50,8 +50,7 @@ while True:
             print('Valor inválido, insira um valor maior que 0')
         else:
             saldo += valor
-            extrato += f'Depósito: R$ {valor:.2f}\n'
-            
+            extrato += f'Depósito: R$ {valor:.2f}\n'     
         
     elif escolha == '3':
         print("\n================ EXTRATO ================")
@@ -59,9 +58,7 @@ while True:
         print(f"\nSaldo: R$ {saldo:.2f}")
         print("==========================================")
         print('Extrato')
-        
-        
-        
+          
     elif escolha == '4':
         print('Sair')
         break
